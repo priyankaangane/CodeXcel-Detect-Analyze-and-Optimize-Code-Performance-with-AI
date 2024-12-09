@@ -1,6 +1,6 @@
 # CodeXcel-Detect-Analyze-and-Optimize-Code-Performance-with-AI
 
-This repository contains an AI-powered tool for analyzing Python code, identifying performance bottlenecks, suggesting optimizations, and providing real-time feedback. The tool leverages various profiling techniques and an AI model for code suggestions. It also features a simple Gradio interface to interact with the tool.
+This repository contains an AI-powered tool for analyzing Python code, identifying performance bottlenecks, suggesting optimizations, and providing feedback. The tool leverages various profiling techniques and an AI model for code suggestions. It also features a simple Gradio interface to interact with the tool.
 
 ## Features
 - **Profiling Reports**: Provides line-by-line performance insights using `LineProfiler` and overall function-level profiling with `CProfile`.
@@ -8,7 +8,6 @@ This repository contains an AI-powered tool for analyzing Python code, identifyi
 - **Static Code Analysis**: Performs static code checks using `flake8` to identify potential errors, warnings, or inefficiencies.
 - **Optimization Suggestions**: Suggests libraries or improvements for enhancing performance.
 - **AI Code Correction**: Automatically generates optimized or corrected code using the CodeGen model from Hugging Face.
-- **Real-Time Feedback**: Offers insights into the code's performance and areas for improvement.
 - **Optimization Explanation**: Describes the changes made to improve performance and readability.
 
 ## How to Run the Code
